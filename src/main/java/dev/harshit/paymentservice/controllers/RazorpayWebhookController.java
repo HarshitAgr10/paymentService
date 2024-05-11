@@ -18,3 +18,7 @@ public class RazorpayWebhookController {
 
 // Webhook URL
 // Razorpay should call this webhook url when the payment is completed or failed or refund is initiated
+
+// Local tunnel to generate a temporary public url which can transfer request to server on local system
+// Run this command on cmd ->  lt --port 8080
+// Create a webhook url on Razorpay dashboard using -> <URL>/razorpayWebhook
